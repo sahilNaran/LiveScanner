@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Live Edge Detection Sample</string>
+    <string name="app_name">LiveScanner</string>
+    <string name="finding_rect">Place receipt here</string>
+    <string name="use_a_dark_background_hint">Use a dark background</string>
+    <string name="move_away">Move away</string>
+    <string name="move_closer">Move closer</string>
+    <string name="adjust_angle">Adjust angle</string>
+    <string name="hold_still">Hold still</string>
+    <string name="capturing">Capturing</string>
 </resources>
