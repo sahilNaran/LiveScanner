@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LiveScanner.iml" filepath="$PROJECT_DIR$/LiveScanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livescanner.iml" filepath="$PROJECT_DIR$/livescanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary343/openCVLibrary343.iml" filepath="$PROJECT_DIR$/openCVLibrary343/openCVLibrary343.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scanner/scanner.iml" filepath="$PROJECT_DIR$/scanner/scanner.iml" />
     </modules>
   </component>
 </project>

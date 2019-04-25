@@ -1,2 +1,3 @@
-include ':app'
+include ':scanner'
 include ':openCVLibrary343'
+rootProject.name = 'livescanner'

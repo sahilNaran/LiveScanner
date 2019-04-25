@@ -1,4 +1,8 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'za.co.knuckles.livescanner'
+version = '1.0.5'
 
 android {
     compileSdkVersion 28
@@ -8,6 +12,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
@@ -19,6 +24,17 @@ android {
     externalNativeBuild {
         ndkBuild {
             path file('OpenCV.mk')
+        }
+    }
+}
+uploadArchives {
+    repositories {
+        mavenDeployer {
+
+            pom.groupId = 'za.co.knuckles.livescanner'
+            pom.version = version
+            pom.artifactId = project.name
+            repository(url: mavenLocal().getUrl())
         }
     }
 }
